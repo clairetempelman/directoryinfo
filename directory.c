@@ -42,5 +42,6 @@ int main(){
     }
   }
   printf("Directory size: %lld Bytes\n", size);
+  closedir(d);
   return 0;
 }
